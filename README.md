@@ -10,6 +10,7 @@ mファイルはレポートに記したのと同様のものである。
 - imgdir_noodle
 - imgdir_number
 - imgdir_yakisoba
+
 上記4ディレクトリはそれぞれ「味噌汁」「noodle」「number」「ペヤング」を検索ワードとして、ORDERをrelevanceにした結果から100枚、ノイズを弾いて収集した結果を格納した。不足分は手動で画像を集め、縦横比を固定したまま最大320pxにリサイズしてデータに加えた。
 
 ### 課題1 - matファイル
@@ -18,6 +19,7 @@ mファイルはレポートに記したのと同様のものである。
 - dir2imgList_result_noodle.mat
 - dir2imgList_result_number.mat
 - dir2imgList_result_yakisoba.mat
+
 dir2imgList_result.matはdirectory2imglist.mの実行結果である。これを引数として読み込んだデータに合わせて名称変更したのが下4つの.matファイルである。
 
 
@@ -25,10 +27,12 @@ dir2imgList_result.matはdirectory2imglist.mの実行結果である。これを
 - imgdir_pizza25
 - imgdir_pizza50
 - imgdir_pizza300latest
+
 これらは「pizza」を検索ワードとして、上二つはrelevance、もう一つはlatestの順序で検索、収集した画像を格納したものである。
 
 - f2sorting_result_n25
 - f2sorting_result_n50
+
 f2_exec.mを実行すると、これらのディレクトリが作られる。ディレクトリ内には「(順位)_(SVMスコア).png」の名でクエリの画像が格納されている。
 
 
