@@ -36,7 +36,9 @@ f2_exec.mを実行すると、これらのディレクトリが作られる。�
 - dir2imgList_pizza25.mat
 - dir2imgList_pizza50.mat
 - dir2imgList_pizza300latest.mat
+
 directory2imglist.mの実行結果から、データに合わせて名称変更したものである。添付していないネガティブ画像1000枚のディレクトリからdir2imgList_negatives.matも作成したが、容量の関係で今回添付はしていない。
 
 - f2learning_result.mat
-f2_learning.mを
+
+f2_learning.mを実行した結果がこのファイル名で出力される。中には2種類の学習済みデータが格納されている。
